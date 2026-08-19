@@ -1,0 +1,157 @@
+{
+  "default_session": {
+    "session_id": "default_session",
+    "title": "tcs",
+    "created_at": 1786904063.1152039,
+    "messages": [
+      {
+        "role": "user",
+        "content": "tcs",
+        "citations": [],
+        "telemetry": {},
+        "timestamp": 1786904351.9828627
+      },
+      {
+        "role": "assistant",
+        "content": "The user's question \"tcs\" does not provide enough context for a meaningful answer based on the given information. The provided document context is empty, indicating that there are no details or facts available to address the query. Therefore, I cannot generate a grounded answer without additional relevant information from a specific source document.",
+        "citations": [],
+        "telemetry": {
+          "retrieval_ms": 947.61,
+          "generation_ms": 21648.34,
+          "total_ms": 22600.02,
+          "total_sec": 22.6
+        },
+        "timestamp": 1786904351.9878697
+      },
+      {
+        "role": "user",
+        "content": "what is that projcec",
+        "citations": [],
+        "telemetry": {},
+        "timestamp": 1786904397.1082673
+      },
+      {
+        "role": "assistant",
+        "content": "The provided document context does not contain enough information to answer the user's question \"What is that project?\" The question appears to be asking about a specific project, but no details or references are given in the context. Therefore, based solely on the information available, it is not possible to provide an accurate answer to the question.",
+        "citations": [],
+        "telemetry": {
+          "retrieval_ms": 1083.23,
+          "generation_ms": 17245.14,
+          "total_ms": 18329.04,
+          "total_sec": 18.33
+        },
+        "timestamp": 1786904397.1094842
+      }
+    ]
+  },
+  "session_9fc49f60": {
+    "session_id": "session_9fc49f60",
+    "title": "give top 5 quesiton in tcs",
+    "created_at": 1786904145.102432,
+    "messages": [
+      {
+        "role": "user",
+        "content": "give top 5 quesiton in tcs",
+        "citations": [],
+        "telemetry": {},
+        "timestamp": 1786904229.293693
+      },
+      {
+        "role": "assistant",
+        "content": "Ollama Error (Status 500): {\"error\":\"model requires more system memory (7.5 GiB) than is available (5.7 GiB)\"}",
+        "citations": [
+          {
+            "filename": "top-60-tcs-nqt-interview-questions-and-answers-for-2025-1_compress.pdf",
+            "page_number": 18,
+            "chunk_index": 3,
+            "similarity_score": 0.9774,
+            "snippet": "#include <iostream> using namespace std;int main() { int n; cout << \"Enter the value of N: \"; cin >\n#include <iostream> using namespace std;int main() { int n; cout << \"Enter the value of N: \"; cin >\n..."
+          },
+          {
+            "filename": "top-60-tcs-nqt-interview-questions-and-answers-for-2025-1_compress.pdf",
+            "page_number": 17,
+            "chunk_index": 7,
+            "similarity_score": 0.9719,
+            "snippet": "may use paging to temporarily store the page on disk and free up a frame for use.\n06/04/2025, 22:34\nTop 60+ TCS NQT Interview Questions and Answers for 2025\n20/25"
+          },
+          {
+            "filename": "top-60-tcs-nqt-interview-questions-and-answers-for-2025-1_compress.pdf",
+            "page_number": 8,
+            "chunk_index": 3,
+            "similarity_score": 0.9652,
+            "snippet": "es\nRedundancy control\nEnsure data consistency\nRestriction for unauthorized access\nEasy accessibility\nProvides backup and recovery\nEnforces integrity constraints\n23. Mention various OOPs concepts in C+..."
+          },
+          {
+            "filename": "top-60-tcs-nqt-interview-questions-and-answers-for-2025-1_compress.pdf",
+            "page_number": 1,
+            "chunk_index": 1,
+            "similarity_score": 0.9645,
+            "snippet": "First Round: TCS NQT\nFirst-round for the TCS recruitment process is TCS NQT which is the most challenging stage of\n06/04/2025, 22:34\nhttps://www.simplilearn.com/tutorials/programming-tutorial/tcs-nqt-..."
+          }
+        ],
+        "telemetry": {
+          "retrieval_ms": 0.9,
+          "generation_ms": 2744.86,
+          "total_ms": 2746.11,
+          "total_sec": 2.75
+        },
+        "timestamp": 1786904229.2949202
+      }
+    ]
+  },
+  "qdrant_test_session": {
+    "session_id": "qdrant_test_session",
+    "title": "What is the primary role of Se...",
+    "created_at": 1786904176.7819104,
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the primary role of SentenceTransformers in a local RAG stack?",
+        "citations": [],
+        "telemetry": {},
+        "timestamp": 1786904176.781912
+      },
+      {
+        "role": "assistant",
+        "content": "The provided document context does not explicitly state the primary role of SentenceTransformers in a local RAG stack. However, according to [Source 1: rag_architecture_spec.pdf (Page 1)], SentenceTransformers is used to select a dense embedding model, specifically 'all-MiniLM-L6-v2', which produces 384-dimensional dense vectors. This suggests that SentenceTransformers plays a role in generating dense embeddings for semantic retrieval, but its primary role in the local RAG stack is not clearly defined in the given context.",
+        "citations": [
+          {
+            "filename": "rag_architecture_spec.pdf",
+            "page_number": 1,
+            "chunk_index": 5,
+            "similarity_score": 0.8564,
+            "snippet": "guarantees that individual chunks maintain paragraph integrity and do not truncate semantic context.\n\n4. DENSE EMBEDDING MODEL SELECTION\nWe select 'all-MiniLM-L6-v2' from SentenceTransformers. It prod..."
+          },
+          {
+            "filename": "eval_metrics_manual.pdf",
+            "page_number": 1,
+            "chunk_index": 2,
+            "similarity_score": 0.7946,
+            "snippet": "2. METRIC DEFINITIONS\n- Retrieval Latency (ms): Measures query embedding and vector search speed. Evaluated using Average and P95 latency metrics across N test queries.\n- End-to-End Latency (s): Measu..."
+          },
+          {
+            "filename": "ollama_interview_guide.pdf",
+            "page_number": 1,
+            "chunk_index": 4,
+            "similarity_score": 0.7824,
+            "snippet": "an 8,192 token context window, allowing up to 10-15 dense retrieved chunks to be included per query.\n\n3. LATENCY BENCHMARKING & METRICS\nKey measurable metrics for local RAG interviews include:\n- Retri..."
+          },
+          {
+            "filename": "vector_database_guide.pdf",
+            "page_number": 1,
+            "chunk_index": 1,
+            "similarity_score": 0.7587,
+            "snippet": "================================================================================\nTECHNICAL GUIDE: FAISS & QDRANT VECTOR STORES\n=========================================================================..."
+          }
+        ],
+        "telemetry": {
+          "retrieval_ms": 234.54,
+          "generation_ms": 1324.68,
+          "total_ms": 1559.59,
+          "total_sec": 1.56
+        },
+        "timestamp": 1786904176.7830353
+      }
+    ]
+  }
+}

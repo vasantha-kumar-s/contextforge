@@ -1,0 +1,50 @@
+# Secrets & Environment
+.env
+.env.*
+!.env.example
+*.env
+
+# Unnecessary PDF & Spec Docs
+*.pdf
+EVALUATION_METRICS.md
+NAMMA_RAG_TECHNICAL_SPECIFICATION.md
+SYSTEM_ARCHITECTURE.md
+
+# Third-party / Reference Repositories
+reference_repos/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+**/venv/
+.venv/
+**/.venv/
+env/
+**/env/
+
+# Node & Frontend Build
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+frontend/dist/
+frontend/build/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
